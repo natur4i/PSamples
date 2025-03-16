@@ -8,6 +8,8 @@
             <Label Content="画面A" FontSize="30" Foreground="Brown" />
             <Label Content="{Binding MyLabel}"/>
             <TextBox />
+            <Button Content="OK"
+                    Command="{Binding OKButton}"/>
         </StackPanel>
     </Grid>
 </UserControl>
